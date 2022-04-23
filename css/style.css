@@ -1,0 +1,211 @@
+
+
+/* start home section */
+#home {
+    background-image: url("../images/events-heavenly-header.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+#home .party-content {
+    position: relative;
+    z-index: 44;
+    color: white;
+}
+#home h1 { 
+ font-size: 60px;
+ margin-bottom: 5px;
+}
+
+/* overLay */
+#home::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+
+/*start navBar styling */
+
+ .linksContainer{
+  position: fixed;
+  z-index: 444444;
+  left: 0;    
+ }   
+
+.links {
+    position: relative;
+    left: 0;
+    top: 0;
+    background-color: #414658;
+    padding: 50px 50px 90px 0px;
+    height: 100vh;
+    /* display: none; */
+}
+.openIcon {
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: -100px;
+ }
+ 
+ul  {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 10px 10px 0;
+    display: inline-block;    
+}
+ul li a:hover {
+    color:rgba(214, 46, 51 , 0.6) ;
+}
+
+.closeiCon {
+    padding-bottom: 30px;
+  
+}
+.closeiCon i {
+    
+    margin-right: -175px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+ 
+
+}
+.closeiCon i:hover {
+    color: rgba(214, 46, 51 , 0.6) ;
+}
+
+
+
+/********** end navBar styling **********/
+
+/******* end home section ***********/
+
+/************ start details section *********/
+
+.details-conatiner h3{
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.details-conatiner p {
+    background-color:  #ccc;
+    padding:0 10px;
+    margin-bottom: 0;
+    display: none;
+   
+   
+}
+
+/********* end detils section ************/
+
+/************* start Duration section **************/
+#duration {
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+/*********** overlay **********/
+
+#duration::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+
+.duration-content {
+    position: relative;
+    z-index: 888;
+    
+}
+
+#duration .days,
+#duration .hours,
+.minutes,
+.seconds {
+    border: 2px solid white;
+    padding: 50px 30px;
+    margin: 30px;
+}
+/********* end Duration section *********/
+
+
+/********** start contact section ********/
+
+/********** end contact section  *******/
+#conatct {
+    padding-top: 80px;
+}
+.contact-heading {
+    margin: auto;
+}
+
+.contact-content span {
+    color: #D62E33 ;
+    cursor: pointer;
+}
+
+.contact-content .icons i {
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    
+   
+}
+
+.contact-content .icons i:hover {
+    background-color: #D62E33;
+    color: white;
+}
+
+/******* form Style  ******/
+.contactForm span {
+    color: #D62E33;
+    font-weight: 600;
+    font-size: 19px;
+ 
+}
+.contactForm input[type = button] {
+    background-color: #D62E33;
+    color: white;
+    border: none;
+    padding: 15px ;
+    cursor: pointer;
+}
+#ok {
+    background-color: brown;
+}
